@@ -57,4 +57,10 @@
             display: block;
         }
     }
+
+    &__inner {
+        background: variables.$dark-color;
+        height: 5.5rem;
+        border-bottom: 3px solid variables.$primary-color;
+    }
 }
